@@ -23,10 +23,6 @@ See the latest release in this [page](https://github.com/bakanui/Wallet/releases
 * **Nikita Chrissandha Mamangkey** - *Layout Design and Implementation* - [Instagram](https://www.instagram.com/nikchriss/)
 * **Predrika Br Ginting** - *Layout Design and Custom Drawables* - [Instagram](https://www.instagram.com/chapercha/)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Credits
 
 * mikepenz ([GitHub](https://github.com/mikepenz)) for his easy to implement and customizable [Material Drawer](https://github.com/mikepenz/MaterialDrawer)
