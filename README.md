@@ -1,6 +1,6 @@
 # Wallet
 
-An Android application that tracks your expenses. This is a school final project for Wireless Computing subject. This is a port from the original project from [bakanui's repo](https://github.com/bakanui/Wallet).
+A Xamarin-based mobile application that tracks your expenses. This was a port from the original project on [bakanui's repo](https://github.com/bakanui/Wallet).
 
 ## Deployment
 
