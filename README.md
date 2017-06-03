@@ -1,12 +1,18 @@
 # Wallet
 
-A Xamarin-based mobile application that tracks your expenses. This was a port from the original project on [bakanui's repo](https://github.com/bakanui/Wallet).
+A Xamarin-based mobile application that tracks your expenses. This was a port from the original project on [bakanui's repo](https://github.com/bakanui/Wallet). Project was made in Visual Studio 2017 Community.
 
 ## Deployment
 
 PHP is in vctwallet-php folder and please host in someplace before running the demo. Change the path for login and register process in app/AppConfig.java
 
 This demo had its PHP hosted in http://vctwallet.azurewebsites.net
+
+## Troubleshooting
+
+If you encountered "XamlCTask" task could not be initialized with its input parameters, you can try to
+* Try updating NuGet Packages and rebuild solution
+* Remove all "bin" and "obj" folders and rebuild solution
 
 ## Versioning
 
