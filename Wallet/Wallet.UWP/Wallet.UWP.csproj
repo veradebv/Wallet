@@ -90,6 +90,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="Connected Services\DompetVCTMobileApp\ConnectedService.json" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,9 @@
       <Project>{27131c61-245a-48e5-9791-fdcb88fe1510}</Project>
       <Name>Wallet</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

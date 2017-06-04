@@ -13,7 +13,7 @@ namespace Wallet
         {
             InitializeComponent();
 
-            MainPage = new Wallet.MainPage();
+            MainPage = new Wallet.MasterDetail();
         }
 
         protected override void OnStart()

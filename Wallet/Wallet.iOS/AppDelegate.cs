@@ -22,6 +22,13 @@ namespace Wallet.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+
+            // Initialization for Azure Mobile Apps
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+            // This MobileServiceClient has been configured to communicate with the Azure Mobile App and
+            // Azure Gateway using the application url. You're all set to start working with your Mobile App!
+            Microsoft.WindowsAzure.MobileServices.MobileServiceClient DompetVCTClient = new Microsoft.WindowsAzure.MobileServices.MobileServiceClient(
+            "http://dompetvct.azurewebsites.net");
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
